@@ -1,0 +1,93 @@
+    
+div h1{
+  
+  letter-spacing: 10px;
+  text-align: center;
+  
+}
+
+.s1,
+.s2,
+.s3{
+  text-decoration: underline;
+}
+
+.s1{
+  
+  color:red;
+  text-shadow: 2px 2px 7px  red;
+}
+
+.s2{
+  
+  color:black;
+  text-shadow: 2px 2px 7px  black;}
+
+.s3{
+  
+  color:green;
+  text-shadow: 2px 2px 7px  green;
+  
+}
+
+.triangle{
+  
+  border-bottom: 150px solid transparent;
+  border-top: 150px solid transparent;
+  border-left: 150px solid red;
+  position: absolute;
+  z-index: 1;
+  margin:0px;
+  
+}
+
+.all{
+   
+  position: relative;
+  background-color:black ;
+  width:500px;
+  height:300px;
+  
+  
+}
+
+.top{
+  
+  width:100%;
+  height:100px;
+  background-color: black;
+  
+}
+
+.between{
+  
+  width:100%;
+  height:100px;
+  background-color: white;
+  
+}
+
+.bottom{
+  
+  width:100%;
+  height:100px;
+  background-color: green;
+  
+}
+
+main{
+  position:absolute;
+  top:150px;
+  left:380px;
+
+}
+img{
+  filter: grayscale(0%);
+filter: blur(4px);
+}
+
+.name{
+  font-size: 10px;
+  text-align: center;
+  
+}
